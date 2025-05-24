@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Web- Introducción a los Sistemas de Cómputo</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navegación -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <a href="index.html">Erwin Fabrizio Garcia Luarte</a>
+                </div>
+                <nav class="main-nav">
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="#servicios">Metas Personales</a></li>
+                        <li><a href="#acerca">Acerca de</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                    </ul>
+                </nav>
+                <div class="login-btn">
+                    <a href="login.html" class="btn btn-outline">
+                        <i class="fas fa-user"></i> Iniciar Sesión
+                    </a>
+                </div>
+                <div class="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Slider/Carrusel -->
+        <section class="slider-container">
+            <div class="slider">
+                <div class="slide active">
+                    <div class="slide-bg slide-bg-1"></div>
+                    <div class="container">
+                        <div class="slide-content">
+                            <h1></h1>
+                            <p></p>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="slide-bg slide-bg-2"></div>
+                    <div class="container">
+                        <div class="slide-content">
+                            <h1></h1>
+                            <p></p>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="slide-bg slide-bg-3"></div>
+                    <div class="container">
+                        <div class="slide-content">
+                            <h1></h1>
+                            <p></p>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="slider-btn prev-btn"><i class="fas fa-chevron-left"></i></button>
+            <button class="slider-btn next-btn"><i class="fas fa-chevron-right"></i></button>
+            <div class="slider-dots">
+                <span class="dot active" data-slide="0"></span>
+                <span class="dot" data-slide="1"></span>
+                <span class="dot" data-slide="2"></span>
+            </div>
+        </section>
+
+        <!-- Sección Informativa -->
+        <section id="acerca" class="section section-about">
+            <div class="container">
+                <div class="about-grid">
+                    <div class="about-image">
+                        <img src="img\foto1.jpg" alt="Sistemas de cómputo">
+                    </div>
+                    <div class="about-content">
+                        <h2>Acerca de mi</h2>
+                        <p>
+                            Desde pequeño fui un niño curioso e inteligente. Pasé por varios colegios y, aunque tuve dificultades para adaptarme y socializar, encontré grandes amigos y aprendí mucho de cada experiencia. Mi familia ha sido mi mayor apoyo, especialmente en momentos difíciles como cuando mi mamá y mi abuela tuvieron cáncer. Siempre fui dedicado en mis estudios y soñé con ser futbolista, pero una lesión cambió mi rumbo. A pesar de los retos, aprendí a valorar la amistad, la familia y a enfocarme en mi propio bienestar.
+
+
+                        </p>
+                        <p>
+                            Actualmente, estoy en la Universidad Mariano Galvez de Guatemala, donde estudio Ingeniería en Sistemas. Me apasiona la tecnología y el desarrollo web, y disfruto aprender sobre nuevas herramientas y lenguajes de programación. Mi objetivo es seguir creciendo profesionalmente.
+                        </p>
+                        <div class="about-cards">
+                            <div class="about-card">
+                                <h3>Misión</h3>
+                                <p>Quiero ser el mejor en lo que hago, no mejor que otros, sino mejor
+que mi yo del pasado, para tener mejores oportunidades en el
+futuro. </p>
+                            </div>
+                            <div class="about-card">
+                                <h3>Visión</h3>
+                                <p>Administrar varios negocios cuando logre estabilidad económica</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección de Servicios -->
+        <section id="servicios" class="section section-services">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Metas Personales</h2>
+                    <p></p>
+                </div>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <h3>Corto Plazo</h3>
+                        <p>Terminar con buenas notas todos los cursos.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <h3>Mediano Plazo</h3>
+                        <p>Hacer el enganche de mi primera casa</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <h3>Largo Plazo</h3>
+                        <p>Formar una empresa y formar una familia.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección de Contacto -->
+        <section id="contacto" class="section section-contact">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Contacto</h2>
+                    <p>¿Tienes alguna pregunta? Contáctame</p>
+                </div>
+                <div class="contact-form-container">
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Nombre</label>
+                            <input type="text" id="name" placeholder="Tu nombre">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" placeholder="tu@email.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Dime tu pregunta</label>
+                            <textarea id="message" rows="4" placeholder="Tu mensaje"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">Enviar mensaje</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3></h3>
+                    <p></p>
+                </div>
+                <div class="footer-col">
+                    <h3>Enlaces</h3>
+                    
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="#servicios">Servicios</a></li>
+                        <li><a href="#acerca">Acerca de</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Metas Personales</h3>
+                    <ul>
+                        <li><a href="#servicios">Corto Plazo</a></li>
+                        <li><a href="#servicios">Mediano Plazo</a></li>
+                        <li><a href="#servicios">Largo Plazo</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Contacto</h3>
+                    <ul class="contact-info">
+                        <li><i class="fas fa-envelope"></i> fabrizioluarte@gmail.com</li>
+                        <li><i class="fas fa-phone"></i> 5431-0180</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Villa Nueva, Guatemala</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="current-year"></span> Erwin Fabrizio Garcia Luarte</p>
+                <p>5390-24-5517</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/slider.js"></script>
+</body>
+</html>
